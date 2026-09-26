@@ -1,4 +1,4 @@
-Brush-up for DSA
+Quick brush-up on DSA
 
 My LeetCode Solutions
 
