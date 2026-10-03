@@ -30,9 +30,6 @@ private:
     }
 public:
     int myAtoi(string s) {
-        if (s.empty()) {
-            return 0;
-        }
         // operate on read-only view of our original string
         std::string::size_type pos = s.find_first_not_of(WHITESPACE);
         if (pos == std::string::npos) {
